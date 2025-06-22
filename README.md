@@ -32,6 +32,6 @@
 <body>
   <h1>Оберіть картку для оплати</h1>
   <a class="btn privat" href="https://send.money/4149609051033571" target="_blank">Оплатити на ПриватБанк</a>
-  <a class="btn mono" href="https://send.monobank.ua/jar/xxxxxxxxxxxxxxxxxx" target="_blank">Оплатити на Monobank</a>
+  <a class="btn mono" href="https://send.monobank.ua/jar/4441111142220064" target="_blank">Оплатити на Monobank</a>
 </body>
 </html>
