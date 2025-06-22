@@ -13,15 +13,19 @@
     h1 {
       margin-bottom: 30px;
     }
+    .card {
+      margin: 20px 0;
+    }
     .btn {
       display: inline-block;
-      padding: 16px 30px;
-      margin: 10px;
+      padding: 14px 24px;
+      margin-top: 10px;
       font-size: 18px;
       text-decoration: none;
       border-radius: 8px;
       color: #fff;
       font-weight: bold;
+      width: 250px;
     }
     .mono {
       background-color: #000000;
@@ -29,12 +33,25 @@
     .privat {
       background-color: #1aaf00;
     }
-    .card {
-      font-size: 14px;
-      color: #333;
+    .logo {
+      width: 100px;
       margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>Оберіть банк
+  <h1>Оберіть банк для оплати</h1>
+
+  <div class="card">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Monobank_UA_logo.svg/512px-Monobank_UA_logo.svg.png" alt="Monobank Logo">
+    <div><strong>4441 1111 4222 0064</strong></div>
+    <a class="btn mono" href="https://send.monobank.ua/jar/4441111142220064" target="_blank">Сплатити через Monobank</a>
+  </div>
+
+  <div class="card">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/8/89/PrivatBank_logo.svg" alt="PrivatBank Logo">
+    <div><strong>4149 6090 5103 3571</strong></div>
+    <a class="btn privat" href="https://next.privat24.ua/money-transfer/card?receiver=4149609051033571" target="_blank">Сплатити через PrivatBank</a>
+  </div>
+</body>
+</html>
